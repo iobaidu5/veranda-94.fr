@@ -1,0 +1,135 @@
+---
+layout: default
+permalink: /contact
+title:
+description:
+keywords:
+---
+
+<section class="banner-contact">
+  <div class="container">
+    <div class="banner_content">
+      <h1 class="banner_content-title text-center">Contactez-nous</h1>
+    </div>
+  </div>
+</section>
+
+<section class="menu pre-contact section-y">
+  <div class="container">
+    <div class="menu_content">
+      <h2 class="menu_content-title">Contactez nous
+        <span class="menu_content-span"></span>
+      </h2>
+      <div class="pad20"></div>
+      <p class="menu_header-p text-left">Pour toutes demandes de renseignements complémentaires<br>
+        notre équipe se tient à votre entière disposition et veillera à vous répondre dans les meilleurs délais.</p>
+    </div>
+    <div class="div02"></div>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="box6">
+          <div class="icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <p class="menu_header-p text-left">{{site.data.company.address}}</p>
+        </div>
+        <div class="box6">
+          <div class="icon">
+            <i class="fas fa-phone-alt"></i>
+          </div>
+
+          <p class="menu_header-p text-left"><br><a href="tel:{{site.data.company.tel}}"
+              class="menu_header-link">{{site.data.company.phone}}</a></p>
+        </div>
+        <div class="box6">
+          <div class="icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <p class="menu_header-p text-left"><br><a href="mailto:{{site.data.company.email}}"
+              class="menu_header-link">{{site.data.company.email}}</a></p>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="pad10"></div>
+        <div class="contact_content">
+          <form role="form" class="contact_content-form" method="post" action="#pre-contact">
+            <div class="row">
+
+              <div class="col-sm-4">
+                <div class="form-group has-feedback ">
+                  <input type="text" class="form-control contact_content-form--input" id="lastname" name="lastname"
+                    value="" placeholder="Votre nom :">
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="form-group has-feedback ">
+                  <input type="text" class="form-control contact_content-form--input" id="phone" name="phone" value=""
+                    placeholder="Votre téléphone  :">
+                </div>
+              </div>
+
+              <div class="col-sm-4 form-pseudo">
+                <div class="form-group has-feedback ">
+                  <input type="text" class="form-control contact_content-form--input" id="pseudo" name="pseudo" value=""
+                    placeholder="pseudo  :">
+                </div>
+              </div>
+
+              <div class="col-sm-4">
+                <div class="form-group has-feedback ">
+                  <input type="text" class="form-control contact_content-form--input" id="email" name="email" value=""
+                    placeholder="Votre email  :">
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="form-group has-feedback ">
+
+                  <textarea rows="5" name="message" class="form-control contact_content-form--input h-100" id="message"
+                    placeholder="Votre message :"></textarea>
+                </div>
+              </div>
+
+            </div>
+            <div class="row ">
+              <div class="col-md-12">
+                <div class="d-flex justify-content-center w-100">
+                  <div class="g-recaptcha" id="rcaptcha" data-sitekey="6Lf-daYaAAAAAN43MqjOaST56sD71rX1cyukR8YF">
+                    <div style="width: 304px; height: 78px;">
+                      <div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-roflfymch9pk"
+                          frameborder="0" scrolling="no"
+                          sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
+                          src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lf-daYaAAAAAN43MqjOaST56sD71rX1cyukR8YF&amp;co=aHR0cHM6Ly93d3cudmVyYW5kYS05NC5mcjo0NDM.&amp;hl=fr&amp;v=rKbTvxTxwcw5VqzrtN-ICwWt&amp;size=normal&amp;cb=embg0wp5e5rt"></iframe>
+                      </div><textarea id="g-recaptcha-response-1" name="g-recaptcha-response"
+                        class="g-recaptcha-response"
+                        style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+                    </div><iframe style="display: none;"></iframe>
+                  </div>
+                </div>
+                <span id="captcha" style="color:red"></span>
+              </div>
+              <div class="col-md-12">
+                <div class="d-flex to-end">
+                  <input id="submit" name="submit" class="contact_content-form--btn" type="submit" value="Envoyer">
+                </div>
+              </div>
+            </div>
+
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section menu pt-0">
+  <div class="container">
+    <div class="menu_image">
+      <img src="./assets/img/locaux.png" alt="" class="menu_image-img2">
+    </div>
+  </div>
+</div>
+
+<iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2638.7500266376314!2d2.4320143156651097!3d48.595484979262686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5e75f7ee47011%3A0x3c8b8a27b5cd990!2s10+Rue+des+Cerisiers%2C+91090+Lisses%2C+France!5e0!3m2!1sfr!2s!4v1514763461436"
+  width="100%" height="350" frameborder="0" style="border:0" allowfullscreen=""></iframe>
