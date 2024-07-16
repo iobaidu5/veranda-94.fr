@@ -7,14 +7,13 @@ tel: 0185538972
 
 email: bvf.mazure@orange.fr
 address: Baies et Verandas de France 2, rue du Camp Romain 91490, Milly La Forêt
-location: 88 Rue Paul et Camille Thomoux 93330 Neuilly-Sur-Marne
 
 websiteAddr: bhinternet.fr
 website: 
 
 recaptcha:
-  client: 6LdQdf8pAAAAACoSpYD6pawtLas8acIL_zkv8VZa
-  server: 6LdQdf8pAAAAAPNjjaYX_BP2nJPZN_43bl64V6j6
+  client: 6Lc4nBEqAAAAAPxFiRQKB0YCONciLCM9t27pwyGs
+  server: 6Lc4nBEqAAAAACVkb1ky-L0IqPXS5BZcIbvG9D4Z
   
 lang: fr
 url:
